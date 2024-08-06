@@ -1,0 +1,56 @@
+<section class="sc-rsvp">
+  <div class="container">
+    <div class="rsvp-content">
+      <div class="rsvp-image">
+        <img src="./assets/img/img_rsvp.png" alt="" />
+      </div>
+      <div class="rsvp-text">
+        <h2>Ucapan & Do'a Restu</h2>
+        <p>
+          Ucapkan Selamat dan Doa Restu Kepada Mempelai Untuk Hari Bahagia
+          Mereka.
+        </p>
+      </div>
+      <div class="rsvp-box">
+        <form class="rsvp-form" method="POST" id="form_komen">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Nama"
+            id="name"
+            name="name"
+          />
+
+          <select class="form-select" id="status" name="status">
+            <option value="0">Pilih Kehadiran</option>
+
+            <option value="1">Saya Akan Hadir</option>
+
+            <option value="2">Saya Tidak Bisa Hadir</option>
+          </select>
+
+          <textarea
+            class="form-control"
+            rows="3"
+            placeholder="Tulis Ucapan"
+            id="comment"
+            name="comment"
+          ></textarea>
+
+          <button
+            class="button button-primary mt-3"
+            type="submit"
+            name="submit"
+            id="submit"
+          >
+            Kirim
+          </button>
+        </form>
+
+        <div class="rsvp-message">
+          <div class="message-scroll" id="display_comment"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

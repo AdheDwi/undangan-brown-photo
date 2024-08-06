@@ -1,0 +1,41 @@
+$rfs-base-font-size: 1rem;
+
+// Font weight
+$fw-lighter: 100;
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+$fw-bolder: 800;
+
+@include font-face("Montserrat", "Montserrat-Thin", $fw-lighter);
+@include font-face("Montserrat", "Montserrat-Light", $fw-light);
+@include font-face("Montserrat", "Montserrat-Regular", $fw-normal);
+@include font-face("Montserrat", "Montserrat-Medium", $fw-medium);
+@include font-face("Montserrat", "Montserrat-Bold", $fw-bold);
+@include font-face("Montserrat", "Montserrat-Black", $fw-bolder);
+
+@include font-face("Cormorant Garamond", "CormorantGaramond-Light", $fw-light);
+@include font-face(
+  "Cormorant Garamond",
+  "CormorantGaramond-Regular",
+  $fw-normal
+);
+@include font-face(
+  "Cormorant Garamond",
+  "CormorantGaramond-Medium",
+  $fw-medium
+);
+@include font-face(
+  "Cormorant Garamond",
+  "CormorantGaramond-SemiBoldItalic",
+  $fw-bold
+);
+
+@include font-face("Stalemate", "Stalemate-Regular", $fw-normal);
+@include font-face("Macondo", "Macondo-Regular", $fw-normal);
+
+$fs-sans-serif: "Montserrat", sans-serif;
+$fs-serif: "Cormorant Garamond", serif;
+$fs-handwriting: "Stalemate", serif;
+$fs-display: "Macondo", serif;

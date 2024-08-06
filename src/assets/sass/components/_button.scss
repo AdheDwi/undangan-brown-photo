@@ -1,0 +1,21 @@
+.button,
+a.button {
+  height: 33px;
+  width: fit-content;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $clr-white;
+  border: 1px solid $clr-white;
+  color: $clr-primary;
+  text-decoration: none;
+  font-weight: $fw-medium;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  &.button-primary {
+    color: $white;
+    background-color: $clr-secondary;
+    border-color: $clr-secondary;
+  }
+}
